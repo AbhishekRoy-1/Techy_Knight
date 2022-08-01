@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "990049726907",
+    "firebase_url": "https://techy-knight-default-rtdb.firebaseio.com",
+    "project_id": "techy-knight",
+    "storage_bucket": "techy-knight.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990049726907:android:ec42c89a61ca757b36d49e",
+        "android_client_info": {
+          "package_name": "com.techyknight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990049726907-eodgdmab5afnjb53ub1b6avnrfiiu1dm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techyknight",
+            "certificate_hash": "31d748f2fae54009e7769ba8a5c11a3ca4bcc3d3"
+          }
+        },
+        {
+          "client_id": "990049726907-ug10ior6grbef6msms2l8s2d5j3n78kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDinfpRyzh3XBDg8zhwC81i6gqAjvcQtEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990049726907-ug10ior6grbef6msms2l8s2d5j3n78kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
