@@ -16,20 +16,18 @@
         android:theme="@style/Theme.TechyKnight"
         tools:targetApi="31" >
         <activity
-            android:name=".MainActivity"
+            android:name=".navigation.MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main" />
         <activity
-            android:name=".activities.RegistrationActivity"
+            android:name=".authentication.RegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.LoginActivity"
+            android:name=".authentication.LoginActivity"
             android:exported="false" />
+
         <activity
-            android:name=".activities.MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.Splash_Screen"
+            android:name=".authentication.Splash_Screen"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

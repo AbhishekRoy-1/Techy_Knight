@@ -1,4 +1,4 @@
-package com.techyknight.activities;
+package com.techyknight.authentication;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -26,6 +26,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.techyknight.navigation.MainActivity;
 import com.techyknight.R;
 
 public class LoginActivity extends AppCompatActivity {

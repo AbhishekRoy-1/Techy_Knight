@@ -1,4 +1,4 @@
-package com.techyknight.activities;
+package com.techyknight.authentication;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
