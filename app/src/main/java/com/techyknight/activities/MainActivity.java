@@ -1,8 +1,10 @@
-package com.techyknight;
+package com.techyknight.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.techyknight.R;
 
 public class MainActivity extends AppCompatActivity {
 

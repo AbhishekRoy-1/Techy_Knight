@@ -1,4 +1,4 @@
-package com.techyknight;
+package com.techyknight.activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,9 +14,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.auth.api.identity.BeginSignInRequest;
-import com.google.android.gms.auth.api.identity.SignInClient;
-import com.google.android.gms.auth.api.identity.SignInCredential;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -29,6 +26,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.techyknight.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -46,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onStart();
         FirebaseUser user = auth.getCurrentUser();
         if(user!= null){
-            Intent intent= new Intent(getApplicationContext(),MainActivity.class);
+            Intent intent= new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
         }
     }
@@ -126,7 +124,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             FirebaseUser user=  auth.getCurrentUser();
-                            Intent intent= new Intent(getApplicationContext(),MainActivity.class);
+                            Intent intent= new Intent(getApplicationContext(), MainActivity.class);
                             startActivity(intent);
                         }
                         else{
@@ -168,7 +166,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
                             finish();
                         }
                         else{

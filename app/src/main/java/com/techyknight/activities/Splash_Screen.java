@@ -1,4 +1,4 @@
-package com.techyknight;
+package com.techyknight.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
-import java.util.Objects;
+import com.techyknight.R;
 
 public class Splash_Screen extends AppCompatActivity {
 
@@ -21,7 +21,7 @@ public class Splash_Screen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(Splash_Screen.this,LoginActivity.class);
+                Intent intent=new Intent(Splash_Screen.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
